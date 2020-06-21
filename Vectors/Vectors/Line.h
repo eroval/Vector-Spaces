@@ -22,14 +22,14 @@ public:
 	double Angle(const Line&) const;             //Find the angle created by two lines
 
 	bool operator+(const Point&) const;          //Finds if a Point lies on the line
-	bool operator||(const Line&) const;		  	 //Checks if two lines are parallel
-	bool operator==(const Line&) const;			 //Checks if two lines match
-	bool operator&&(const Line&) const;			 //Checks if two lines intersect
-	bool operator!=(const Line&) const;			 //Checks if two lines never intersect
-	bool operator|(const Line&) const;			 //Checks if two lines are perpendicular(orthogonal more precisely)
+	bool operator||(const Line&) const;	     //Checks if two lines are parallel
+	bool operator==(const Line&) const;	     //Checks if two lines match
+	bool operator&&(const Line&) const;	     //Checks if two lines intersect
+	bool operator!=(const Line&) const;	     //Checks if two lines never intersect
+	bool operator|(const Line&) const;	     //Checks if two lines are perpendicular(orthogonal more precisely)
 
 
-	virtual void print(std::ofstream&) const;											//output when manual inputting
+	virtual void print(std::ofstream&) const;						//output when manual inputting
 	virtual void autoPrint(std::ofstream& out, int* arr, unsigned short b) const;		//output when reading from a file
 
 	virtual std::ostream& ext(std::ostream& out) const;
