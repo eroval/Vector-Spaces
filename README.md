@@ -1,5 +1,3 @@
-# Vectors
-
 ![Vectors](https://i.ibb.co/xsp03mw/Vectors.png)
 
 ## Points, Vectors, Lines, Segments, Triangles
