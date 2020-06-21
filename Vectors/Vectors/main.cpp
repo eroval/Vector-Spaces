@@ -10,14 +10,13 @@
 #include "Line.h";
 #include "Segment.h"
 #include "Triangle.h"
-using namespace std;
 
 /*
 void Tests() {
 	Vector c(1, 1, 1);
-	cout << c;
+	std::cout << c;
 	Vector d = c.Direction();
-	cout << d;
+	std::cout << d;
 	Vector h(1, 1, 1);
 	Vector l(-3, -3, -3);
 	std::cout << endl;
@@ -51,7 +50,7 @@ void Tests() {
 	std::cout << l1.Perpendicular() << std::endl;
 	std::cout << l1.Angle(l2) << std::endl;
 	std::cout << l1.ShortestDistance(l2) << std::endl;
-	cout << l1 << endl << l3 << endl;
+	std::cout << l1 << endl << l3 << endl;
 	std::cout << "L1 || L3 " << l1.ShortestDistance(l3) << std::endl;
 	std::cout << (l1 || l3) << std::endl;
 	std::cout << "L1==L1 " << std::endl;
@@ -103,12 +102,12 @@ void Tests() {
 	std::cout << " Tr1 + tm: " << (tr1 == tm) << std::endl;
 	std::cout << "Tr1 < tm: " << (tr1 < tm) << std::endl; MyString a("Hello");
 	ifstream in("Input.txt", ios::binary);
-	cout << a << endl;
+	std::cout << a << endl;
 	MyString b("Del");
 	a = "Del";
-	cout << a << a.Length() << endl;
+	std::cout << a << a.Length() << endl;
 	a.setArr("Del");
-	cout << a;
+	std::cout << a;
 	do {
 		GetLine(in, a);
 		std::cout << a << endl;
