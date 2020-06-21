@@ -8,16 +8,16 @@ private:
 	//interval of the segment
 	float t[2];
 public:
-	virtual ~Segment();									 //Destructor
-	Segment();											 //Default Constructor
-	Segment(const Point&, const Vector&, float, float);  //Constructor with Line and an Interval
+	virtual ~Segment();						 //Destructor
+	Segment();							 //Default Constructor
+	Segment(const Point&, const Vector&, float, float); 		 //Constructor with Line and an Interval
 	Segment(const Point&, const Vector&);				 //Constructor with Default Values
-	Segment(const Line&);								 //Constructor set with a Line and Default Values
-	Segment(const Segment&);							 //Copy Constructor
-	Segment& operator=(const Segment&);					 //Predefined equalization
+	Segment(const Line&);						 //Constructor set with a Line and Default Values
+	Segment(const Segment&);					 //Copy Constructor
+	Segment& operator=(const Segment&);				 //Predefined equalization
 
-	double Length() const;							   	 //Return the Length of the Segment
-	Point Middle() const;								 //Return a Point which is in the middle of the Segment
+	double Length() const;					 	 //Return the Length of the Segment
+	Point Middle() const;						 //Return a Point which is in the middle of the Segment
 
 	bool operator==(const Point&) const;			   	 //Check is a Point lies on the Segment
 
@@ -26,7 +26,7 @@ public:
 
 	void swap(float&, float&);
 
-	virtual void print(std::ofstream&) const;											//output when manual inputting
+	virtual void print(std::ofstream&) const;				   	    //output when manual inputting
 	virtual void autoPrint(std::ofstream& out, int* arr, unsigned short b) const;       //output when reading from a file
 
 	virtual std::ostream& ext(std::ostream& out) const;
