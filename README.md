@@ -25,7 +25,7 @@ a lot more. I might do updates on this little project in the future adding an in
 	Point:
 		1
 		1 2 3
-	will create a Point with values (1,2,3)
+		will create a Point with values (1,2,3)
 	
 	#Point:
 	[x][x][x] - values of the Point
