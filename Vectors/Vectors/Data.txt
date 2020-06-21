@@ -1,0 +1,76 @@
+2
+x = 1
+y = 2
+z = 3
+
+
+	5
+		Vector b: 
+x = 1
+y = 2
+z = 3
+
+		They are Parallel.
+
+	5
+		Vector b: 
+x = 2
+y = 4
+z = 6
+
+		They are Parallel.
+
+	5
+		Vector b: 
+x = 1
+y = 3
+z = 2
+
+		They aren't Parallel.
+5
+
+Triangle: 
+
+Point A: 
+x=1
+y=2
+z=3
+
+Point B: 
+x=0
+y=0
+z=0
+
+Point C: 
+x=0
+y=5
+z=10
+
+Vector AB: 
+x = -1
+y = -2
+z = -3
+
+Vector BC: 
+x = 0
+y = 5
+z = 10
+
+Vector AC: 
+x = -1
+y = 3
+z = 7
+
+AB = 3.74166
+BC = 11.1803
+AC = 7.68115
+
+
+	7
+		Point: 
+
+x=1
+y=2
+z=3
+
+		The Point lies on a side of the Triangle.
