@@ -61,10 +61,9 @@ Example: Line can be set with a Point and a Point, but also with a Point and a V
 		5 - Triangle
 
 		Example:
-			Point:
-			1
-			1 2 3
-			will create a Point with values (1,2,3)
+		1
+		1 2 3
+		will create a Point with values (1,2,3)
 	
 	- Point:
 	[x][x][x] 		- values of the Point
