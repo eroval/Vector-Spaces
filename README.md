@@ -11,12 +11,13 @@ as of now. There are parametric equations,
 normals, planes, line intersections and
 a lot more. I might do updates on this little project in the future adding an interactive UI and new types of geometrical objects.
 
-##All Available Operations:
 
-#Point:
+## All Available Operations:
+
+# Point:
 - check if two Points are the same
 
-#Vector:
+# Vector:
 - 
 
 ##				Input from a File:
