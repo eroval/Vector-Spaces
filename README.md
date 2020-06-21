@@ -66,16 +66,16 @@ Example: Line can be set with a Point and a Point, but also with a Point and a V
 		1 2 3
 		will create a Point with values (1,2,3)
 	
-	1.Point:
+	- Point:
 	[x][x][x] 		- values of the Point
 
-	2.Vector:
+	- Vector:
 	[x][x][x]		- values of the Vector 
 	[x]			- operation
 	[x][x][x] / [x]		- second Vector or Scalar
 	[x][x][x]		- third Vector if needed 
 
-	3.Line:
+	- Line:
 	[x]			- way of creation (1: with Point and a Point; 2: with Point and Vector)
 	[x][x][x]		- values of the Point
 	[x][x][x]		- values of the Point/Vector
@@ -84,7 +84,7 @@ Example: Line can be set with a Point and a Point, but also with a Point and a V
 	[x][x][x]		- values for the Point of the Second Line depending on the previous choice 
 	[x][x][x]		- values for the Point/Vector of the Second Line
 
-	4.Segment:
+	- Segment:
 	[x]			- way of creation
 	[x][x][x]		- values for the Point of the Segment
 	[x][x][x]		- values for the Vector/Point of the Segment
@@ -93,7 +93,7 @@ Example: Line can be set with a Point and a Point, but also with a Point and a V
 	[x]			- operation
 	[x][x][x]		- Point values for the operation if needed
 
-	5.Triangle:
+	- Triangle:
 	[x][x][x]		- values for the Point A
 	[x][x][x]		- values for the Point B
 	[x][x][x]		- values for the Point C
