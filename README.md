@@ -112,3 +112,6 @@ a lot more. I might do updates on this little project in the future adding an in
 	[x]			- operation
 	[x][x][x]		- values of the Point for the selected operation if needed
 
+
+## Output into a File:
+Outputs all the operations, created objects and their values into a single Document(Data.txt).
