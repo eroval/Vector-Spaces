@@ -10,17 +10,17 @@ private:
 	Point tB;
 	Point tC;
 public:
-	virtual ~Triangle();								//Destructor
-	Triangle();											//Default Constructor
+	virtual ~Triangle();				    //Destructor
+	Triangle();					    //Default Constructor
 	Triangle(const Point&, const Point&, const Point&); //Constructor with parameters
-	Triangle(const Triangle&);							//Copy Constructor
-	Triangle& operator=(const Triangle&);				//Predefined equalization
+	Triangle(const Triangle&);			    //Copy Constructor
+	Triangle& operator=(const Triangle&);		    //Predefined equalization
 
-	const char* TypeOfTriangle() const;					//Check Type of Triangle
+	const char* TypeOfTriangle() const;		    //Check Type of Triangle
 
-	double Perimeter() const;							//Finds Perimeter of the Triangle
-	double Area() const;							    //Finds Area of a Triangle
-	Point Centre() const;								//Finds the Centre of the Triangle
+	double Perimeter() const;			    //Finds Perimeter of the Triangle
+	double Area() const;				    //Finds Area of a Triangle
+	Point Centre() const;				    //Finds the Centre of the Triangle
 
 	Point getTA() const;	  //get Point A
 	Point getTB() const;	  //get Point B
@@ -32,11 +32,11 @@ public:
 
 	virtual void check(const Point&, const Point&, const Point&); //Checks if the sides are properly inputted
 
-	bool operator<(const Point&) const;							  //Finds if a Point is on the plane of the Triangle and inside the triangle
-	bool operator>(const Point&) const;							  //Finds if a point lies on the plane of the Triangle and is outside of it
-	bool operator==(const Point&) const;						  //Finds if a point lies on a side of the Triangle
+	bool operator<(const Point&) const;	 //Finds if a Point is on the plane of the Triangle and inside the triangle
+	bool operator>(const Point&) const;	 //Finds if a point lies on the plane of the Triangle and is outside of it
+	bool operator==(const Point&) const;	 //Finds if a point lies on a side of the Triangle
 
-	virtual void print(std::ofstream&) const;										//print when manual inputting
+	virtual void print(std::ofstream&) const;					//print when manual inputting
 	virtual void autoPrint(std::ofstream& out, int* arr, unsigned short b) const;   //print when reading from a file
 
 
