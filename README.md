@@ -44,10 +44,26 @@ a lot more. I might do updates on this little project in the future adding an in
 - Check if two Lines never Intersect
 - Check if two Lines are Perpendicular(orthogonal to be more precise)
 
+## Segment:
+- Length of the Segment
+- Find the middle of the Segment
+- Check if a Point lies on the Segment
+
+## Triangle:
+- Type of the Triangle (iscocles and etc.)
+- Perimeter of the Triangle
+- Area of the Triangle
+- Centre of the Triangle
+- Check if Sides are properly inputted
+- Find if a Point is on the Plane of the Triangle and inside it
+- Find if a Point is on the Plane of the Triangle and outside it
+- Find if a Point lies on a side of the Triangle
 
 ## //Note:
 Points, Vectors, Lines, Segments and Triangles can be set in different ways.
-Example: Line can be set with a Point and a Point, but also with a Point and a Vector
+Example: Line can be set with a Point and a Point, but also with a Point and a Vector, Segment can have different intervals and etc.
+
+There are user-defined Exception classes which help for easier debugging and error-finding.
 
 
 ##				Input from a File(Input.txt):
