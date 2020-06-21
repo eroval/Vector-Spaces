@@ -58,8 +58,8 @@ a lot more. I might do updates on this little project in the future adding an in
 - Points, Vectors, Lines, Segments and Triangles can be set in different ways.
 
 		Example: 
-		Line can be set with a Point and a Point, but also with a Point and a Vector, 
-		Segment can have different intervals and etc.
+			Line can be set with a Point and a Point, but also with a Point and a Vector, 
+			Segment can have different intervals and etc.
 - There are user-defined Exception classes which help for easier debugging and error-finding.
 
 
