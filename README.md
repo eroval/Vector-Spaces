@@ -53,7 +53,7 @@ Example: Line can be set with a Point and a Point, but also with a Point and a V
 ##				Input from a File:
 
 	First Line is always the figure:
- 	  [x]:
+ 	[x]:
 		1 - Point
 		2 - Vector
 		3 - Line
