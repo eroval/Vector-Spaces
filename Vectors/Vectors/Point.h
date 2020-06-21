@@ -14,10 +14,10 @@ private:
 	float pz;
 
 public:
-	virtual ~Point();				//Destructor
-	Point();						//Default Constructor
+	virtual ~Point();		//Destructor
+	Point();			//Default Constructor
 	Point(float , float , float );  //Constructor with Parameters
-	Point(const Point&);			//Copy Constructor
+	Point(const Point&);		//Copy Constructor
 	Point& operator=(const Point&); //predefinition of equalization
 
 	bool operator ==(const Point&) const; //Checks if two Points are the same
@@ -33,7 +33,7 @@ public:
 	Point getPoint() const; //return the whole Point
 
 
-	virtual void print() const;														 //output when manual inputting
+	virtual void print() const;							 //output when manual inputting
 	virtual void autoPrint(std::ofstream& out, int* arr, unsigned short b) const;	 //output when reading from a file
 
 	virtual std::istream& ins(std::istream&, bool = 0, int* = nullptr, unsigned short = 0);
