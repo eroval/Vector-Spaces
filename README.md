@@ -60,7 +60,7 @@ Example: Line can be set with a Point and a Point, but also with a Point and a V
 		4 - Segment
 		5 - Triangle
 
-		Example:
+	Example:
 		1
 		1 2 3
 		will create a Point with values (1,2,3)
