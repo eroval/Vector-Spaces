@@ -50,7 +50,7 @@ Points, Vectors, Lines, Segments and Triangles can be set in different ways.
 Example: Line can be set with a Point and a Point, but also with a Point and a Vector
 
 
-##				Input from a File:
+##				Input from a File(Input.txt):
 
 	First Line is always the figure:
  	[x]:
@@ -61,10 +61,10 @@ Example: Line can be set with a Point and a Point, but also with a Point and a V
 		5 - Triangle
 
 		Example:
-	Point:
-		1
-		1 2 3
-		will create a Point with values (1,2,3)
+			Point:
+			1
+			1 2 3
+			will create a Point with values (1,2,3)
 	
 	- Point:
 	[x][x][x] 		- values of the Point
